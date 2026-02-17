@@ -30,9 +30,9 @@ Les réponses sont générées par un modèle OpenAI via **LangChain**, en se ba
 ## 📁 Structure de projet (exemple)
 
 mon-projet/
-├─ app.py
-├─ requirements.txt
-└─ ../.env # (selon ton load_dotenv("../.env"))
+app.py
+requirements.txt
+../.env # (selon ton load_dotenv("../.env"))
 
 ## 🔐 Variables d’environnement
 
