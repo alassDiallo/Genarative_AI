@@ -22,8 +22,8 @@ Les réponses sont générées par un modèle OpenAI via **LangChain**, en se ba
 - `LangChain`
 - `langchain_openai` (ChatOpenAI + OpenAIEmbeddings)
 - FAISS (vector store)
-- PyPDFLoader
-- python-dotenv
+- `PyPDFLoader` 
+- `python-dotenv` 
 
 ---
 
@@ -45,7 +45,7 @@ mon-projet/
 Crée un fichier `.env` contenant ta clé OpenAI :
 
 
-exemple: OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
+exemple: `OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx`
 
 
 ---
@@ -54,15 +54,15 @@ exemple: OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 
 ### 1) Créer un environnement virtuel 
 
-python -m venv .venv
+`python -m venv .venv`
 
 
-.venv\Scripts\activate
+`.venv\Scripts\activate`
 
 puis lancez la commande suivante pour installer les dependances
 
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Demarrez l'application avec la commande 
 
