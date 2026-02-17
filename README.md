@@ -30,13 +30,18 @@ Les réponses sont générées par un modèle OpenAI via **LangChain**, en se ba
 ## 📁 Structure de projet (exemple)
 
 mon-projet/
+
 app.py
+
 requirements.txt
+
 ../.env # (selon ton load_dotenv("../.env"))
 
 ## 🔐 Variables d’environnement
 
 Crée un fichier `.env` contenant ta clé OpenAI :
+
+
 exemple: OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 
 
@@ -50,6 +55,8 @@ python -m venv .venv
 .venv\Scripts\activate
 
 puis lancez la commande suivante pour installer les dependances
+
+
 pip install -r requirements.txt
 
 ### Demarrez l'application avec la commande streamlit run app.py
