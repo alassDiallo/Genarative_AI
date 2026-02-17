@@ -31,11 +31,14 @@ Les réponses sont générées par un modèle OpenAI via **LangChain**, en se ba
 
 mon-projet/
 
-app.py
 
-requirements.txt
+├─ app.py
 
-../.env # (selon ton load_dotenv("../.env"))
+
+├─ requirements.txt
+
+
+└─ ../.env # (selon ton load_dotenv("../.env"))
 
 ## 🔐 Variables d’environnement
 
