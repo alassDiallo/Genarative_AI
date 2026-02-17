@@ -19,7 +19,7 @@ Les réponses sont générées par un modèle OpenAI via **LangChain**, en se ba
 ## 🧱 Stack / Librairies
 
 - [Streamlit](https://streamlit.io/)
-- LangChain
+- `LangChain`
 - `langchain_openai` (ChatOpenAI + OpenAIEmbeddings)
 - FAISS (vector store)
 - PyPDFLoader
@@ -55,6 +55,8 @@ exemple: OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 ### 1) Créer un environnement virtuel 
 
 python -m venv .venv
+
+
 .venv\Scripts\activate
 
 puis lancez la commande suivante pour installer les dependances
