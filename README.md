@@ -64,7 +64,9 @@ puis lancez la commande suivante pour installer les dependances
 
 pip install -r requirements.txt
 
-### Demarrez l'application avec la commande streamlit run app.py
+### Demarrez l'application avec la commande 
+
+`streamlit run appSt.py` 
 
 
 ## Utilisation
